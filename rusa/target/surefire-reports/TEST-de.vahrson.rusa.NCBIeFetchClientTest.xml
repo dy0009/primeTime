@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="1" time="0.232" failures="1" name="de.vahrson.rusa.NCBIeFetchClientTest">
+  <properties>
+    <property value="Apple Inc." name="java.vendor"/>
+    <property value="/Users/Dongmei/.m2/repository" name="localRepository"/>
+    <property value="SUN_STANDARD" name="sun.java.launcher"/>
+    <property value=":ext:bioinfo:/Volumes/Turing/LabShare/cvsroot" name="env.CVSROOT"/>
+    <property value="HotSpot Client Compiler" name="sun.management.compiler"/>
+    <property value="31704ef0" name="env.SECURITYSESSIONID"/>
+    <property value="Mac OS X" name="os.name"/>
+    <property value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/ui.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/laf.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/sunrsasign.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/jsse.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/jce.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/charsets.jar" name="sun.boot.class.path"/>
+    <property value="/var/folders/G0/G0CI2uTRFKOTw2JA+dEHiE+++TI/-Tmp-/" name="env.TMPDIR"/>
+    <property value="/Users/Dongmei/NetBeansProjects/primeTime" name="env.PWD"/>
+    <property value="en_US.UTF-8" name="env.LANG"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="1.5.0_13-b05-237" name="java.runtime.version"/>
+    <property value="/tmp/launch-etn2SO/Render" name="env.Apple_PubSub_Socket_Render"/>
+    <property value=":0.0" name="env.DISPLAY"/>
+    <property value="Dongmei" name="user.name"/>
+    <property value="Dongmei" name="env.USER"/>
+    <property value="/bin/bash" name="env.SHELL"/>
+    <property value="0x1F5:0:0" name="env.__CF_USER_TEXT_ENCODING"/>
+    <property value="true" name="awt.nativeDoubleBuffering"/>
+    <property value="/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/Dongmei/bin/i386:/Users/Dongmei/bin" name="env.PATH"/>
+    <property value="en" name="user.language"/>
+    <property value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Libraries" name="sun.boot.library.path"/>
+    <property value="/usr/share/apache-maven-2.0.9/bin/m2.conf" name="classworlds.conf"/>
+    <property value="1.5.0_13" name="java.version"/>
+    <property value="America/New_York" name="user.timezone"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="local|*.local|169.254/16|*.169.254/16" name="http.nonProxyHosts"/>
+    <property value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/lib/endorsed" name="java.endorsed.dirs"/>
+    <property value="" name="sun.cpu.isalist"/>
+    <property value="MacRoman" name="sun.jnu.encoding"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="1" name="env.SHLVL"/>
+    <property value="/" name="file.separator"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="US" name="user.country"/>
+    <property value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home" name="java.home"/>
+    <property value="mixed mode, sharing" name="java.vm.info"/>
+    <property value="/Users/Dongmei/Applications/Tomcat" name="env.CATALINA_HOME"/>
+    <property value="Dongmei" name="env.LOGNAME"/>
+    <property value="10.5.4" name="os.version"/>
+    <property value="240" name="env.TERM_PROGRAM_VERSION"/>
+    <property value=":" name="path.separator"/>
+    <property value="1.5.0_13-119" name="java.vm.version"/>
+    <property value="apple.awt.CPrinterJob" name="java.awt.printerjob"/>
+    <property value="xterm-color" name="env.TERM"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="apple.awt.CToolkit" name="awt.toolkit"/>
+    <property value="local|*.local|169.254/16|*.169.254/16" name="socksNonProxyHosts"/>
+    <property value="local|*.local|169.254/16|*.169.254/16" name="ftp.nonProxyHosts"/>
+    <property value="/usr/share/man:/usr/local/share/man:/usr/X11/man" name="env.MANPATH"/>
+    <property value="/Users/Dongmei" name="user.home"/>
+    <property value="/Users/Dongmei/NetBeansProjects/primeTime" name="env.OLDPWD"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="Apple_Terminal" name="env.TERM_PROGRAM"/>
+    <property value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" name="java.library.path"/>
+    <property value="http://www.apple.com/" name="java.vendor.url"/>
+    <property value="org.codehaus.classworlds.Launcher" name="env.JAVA_MAIN_CLASS_7966"/>
+    <property value="Apple Inc." name="java.vm.vendor"/>
+    <property value="false" name="gopherProxySet"/>
+    <property value="/usr/share/apache-maven-2.0.9" name="maven.home"/>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="/usr/share/apache-maven-2.0.9/boot/classworlds-1.1.jar" name="java.class.path"/>
+    <property value="ssh" name="env.CVS_RSH"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="unknown" name="sun.os.patch.level"/>
+    <property value="/Users/Dongmei" name="env.HOME"/>
+    <property value="/Users/Dongmei/NetBeansProjects/primeTime/rusa/target/test-classes:/Users/Dongmei/NetBeansProjects/primeTime/rusa/target/classes:/Users/Dongmei/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar:/Users/Dongmei/.m2/repository/de/vahrson/jargs/1.0/jargs-1.0.jar:/Users/Dongmei/.m2/repository/de/vahrson/javax/1.0/javax-1.0.jar:/Users/Dongmei/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/Dongmei/.m2/repository/javax/xml/soap/saaj-api/1.3/saaj-api-1.3.jar:/Users/Dongmei/.m2/repository/org/apache/axis/axis/1.4/axis-1.4.jar:/Users/Dongmei/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Dongmei/.m2/repository/commons-discovery/commons-discovery/0.4/commons-discovery-0.4.jar:/Users/Dongmei/.m2/repository/org/apache/axis/axis-jaxrpc/1.4/axis-jaxrpc-1.4.jar:/Users/Dongmei/NetBeansProjects/primeTime/util/target/util-1.0-SNAPSHOT.jar:/Users/Dongmei/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Dongmei/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:" name="surefire.test.class.path"/>
+    <property value="/tmp" name="java.io.tmpdir"/>
+    <property value="http://bugreport.apple.com/" name="java.vendor.url.bug"/>
+    <property value="/tmp/launch-5f3G9Q/Listeners" name="env.SSH_AUTH_SOCK"/>
+    <property value="unix2003" name="env.COMMAND_MODE"/>
+    <property value="apple.awt.CGraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="i386" name="os.arch"/>
+    <property value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/lib/ext" name="java.ext.dirs"/>
+    <property value="/Users/Dongmei/NetBeansProjects/primeTime/rusa" name="user.dir"/>
+    <property value="1040.1.5.0_13-237" name="mrj.version"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Java HotSpot(TM) Client VM" name="java.vm.name"/>
+    <property value="/Users/Dongmei/NetBeansProjects/primeTime/rusa" name="basedir"/>
+    <property value="MacRoman" name="file.encoding"/>
+    <property value="1.5" name="java.specification.version"/>
+  </properties>
+  <testcase classname="de.vahrson.rusa.NCBIeFetchClientTest" time="0.224" name="testFetch">
+    <failure type="junit.framework.ComparisonFailure" message="expected:&lt;LOCUS       HSMYCC                 10996 bp    DNA     linear   PRI 03-JUN-2002&gt; but was:&lt;&gt;">junit.framework.ComparisonFailure: expected:&lt;LOCUS       HSMYCC                 10996 bp    DNA     linear   PRI 03-JUN-2002&gt; but was:&lt;&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at de.vahrson.rusa.NCBIeFetchClientTest.testFetch(NCBIeFetchClientTest.java:33)
+</failure>
+  </testcase>
+</testsuite>

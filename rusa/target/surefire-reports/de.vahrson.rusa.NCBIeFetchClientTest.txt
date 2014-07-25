@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: de.vahrson.rusa.NCBIeFetchClientTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.24 sec <<< FAILURE!
+testFetch(de.vahrson.rusa.NCBIeFetchClientTest)  Time elapsed: 0.225 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<LOCUS       HSMYCC                 10996 bp    DNA     linear   PRI 03-JUN-2002> but was:<>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at de.vahrson.rusa.NCBIeFetchClientTest.testFetch(NCBIeFetchClientTest.java:33)
+

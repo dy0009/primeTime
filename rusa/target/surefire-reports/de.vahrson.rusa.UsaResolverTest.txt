@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: de.vahrson.rusa.UsaResolverTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE!
+testResolveUsa(de.vahrson.rusa.UsaResolverTest)  Time elapsed: 0.023 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at de.vahrson.rusa.UsaResolverTest.testResolveUsa(UsaResolverTest.java:31)
+
+testPutLocal(de.vahrson.rusa.UsaResolverTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at de.vahrson.rusa.UsaResolverTest.testPutLocal(UsaResolverTest.java:61)
+
